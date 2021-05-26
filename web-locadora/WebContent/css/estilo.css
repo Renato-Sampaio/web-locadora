@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+html {
+	
+	background: url('../img/fundo1.jpg');
+	repeat: no-repeat;
+	background-size: 100%;
+}
+
+header{
+	width: 100%;
+	height: 300px;
+    
+	background-size: cover;
+	opacity: 0.9;
+}
+
+
+.imagem_fundo {
+	position: relative;
+	top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-image:url('../img/fundo2.jpg') ;
+	opacity: 0.9;
+	height: 100%;
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+    background-size: 50px, 130px, auto;
+}
+
+
+body{
+	margin: 0;
+	padding: 20px 0;
+	color: black;
+	text-shadow: 1px 1px 1px gray;
+	
+}
+
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+table{
+	background-color: white;
+}
